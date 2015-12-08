@@ -1,0 +1,16 @@
+{
+  "name": "vsts-dockerhub-tutum-azure",
+  "version": "1.0.0",
+  "description": "Node.js app running as a container",
+  "main": "index.js",
+  "license": "Test",
+  "dependencies": {
+    "express": "~4.12.2",
+    "mocha": "^2.2.5",
+    "supertest": "1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-spawn-mocha": "",
+    "gulp-util": "^3.0.5"    
+  },
+  "author": "Oguz Pastirmaci"
+}
