@@ -10,7 +10,8 @@
     "supertest": "1.1.0",
     "gulp": "^3.9.0",
     "gulp-spawn-mocha": "",
-    "gulp-util": "^3.0.5"    
+    "gulp-util": "^3.0.5",
+    "applicationinsights": ""
   },
   "author": "Oguz Pastirmaci"
 }
