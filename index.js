@@ -4,7 +4,7 @@ var PORT = 8000;
 
 var app = express();  
 
-app.set('views', 'views');
+app.set('views', __dirname + 'views');
 app.set('view engine', 'jade');
 
 app.get('/', function (req, res) {  
