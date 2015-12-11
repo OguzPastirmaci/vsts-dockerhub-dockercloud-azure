@@ -15,5 +15,6 @@ app.get('/', function (req, res) {
 if(!module.parent){
 app.listen(PORT);
 }
+
 console.log('Running on port ' + PORT);
 module.exports.getApp = app;
