@@ -5,15 +5,15 @@ var PORT = 8000;
 
 var app = express();
 
-var hostname = os.hostname();
+var localhostname = os.hostname();
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
 app.get('/', function (req, res) {
-      res.render('index', { hostname: 'hostname'});
+      res.render('index', {localhostname: 'localhosthostname'});
   });
-});
+//});
 
 if(!module.parent){
 app.listen(PORT);
