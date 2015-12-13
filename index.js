@@ -11,7 +11,9 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
 app.get('/', function (req, res) {
-      res.render('index', {localhostname: 'localhosthostname'});
+      res.render('index', {
+      	localhostname: 'localhosthostname'
+      })
   });
 });
 
