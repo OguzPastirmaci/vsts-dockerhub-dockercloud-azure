@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
       res.render('index', {
       	localhostname: 'localhosthostname'
       })
-  });
+//});
 });
 
 if(!module.parent){
