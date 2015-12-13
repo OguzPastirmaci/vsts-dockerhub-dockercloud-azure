@@ -1,16 +1,16 @@
 var express = require('express');
+var os = require(“os”);
 
 var PORT = 8000;
 
 var app = express();
 
-var os = require(“os”);
 var hostname = os.hostname();
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
-app.get('/', function (req, res) {  
+app.get('/', function (req, res) {
       res.render('index', { hostname: 'hostname'});
   });
 });
