@@ -28,13 +28,13 @@ the page.
 1. Gulp
 1. Shell Script
 
-![](<media/add-tasks.png>)
+![](<media/add-tasks.PNG>)
 
 
 
 **9.** Your build tasks should look like this:
 
-![](<media/build-tasks.png>)
+![](<media/build-tasks.PNG>)
 
 
 **9.** Select the **Shell Script** task and fill in the input values
@@ -44,16 +44,16 @@ Script Path:	build-push-docker-image.sh
 Arguments:		$(username) $(password) $(email) $(username)/$(repository) $(tag)
 
 
-![](<media/shell-script-task.png>)
+![](<media/shell-script-task.PNG>)
 
 **9.**  [Create a Docker Hub account & repository](https://docs.docker.com/mac/step_five/). Make a note of the username, password, e-mail address, and repository name, you will use them in the next step.
 
 **10.** Go back to your build definition in Visual Studio Team Services and click on the **Variables** tab and enter the following values:
 
-![](<media/build-variables.png>)
+![](<media/build-variables.PNG>)
 
 **11.** In the **Triggers** tab, check **Continuous Integration**
 
-![](<media/continuous-integration.png>)
+![](<media/continuous-integration.PNG>)
 
 **12.** Click **Save**, give the build definition a name, and then click **Ok**
