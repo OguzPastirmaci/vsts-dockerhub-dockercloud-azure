@@ -94,5 +94,5 @@ with the following command:
 
 ![](<media/start_agent.png>)
 
-And now, you have a build agent configured for Visual Studio Online.
+And now, you have a build agent configured for Visual Studio Team Services.
 	

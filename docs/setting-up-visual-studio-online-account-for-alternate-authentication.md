@@ -1,4 +1,4 @@
-### Set up your Visual Studio Online account for alternate authentication
+### Set up your Visual Studio Team Services account for alternate authentication
 
 
 **1.** First, we need to enable secondary credentials. Go to your **account home
