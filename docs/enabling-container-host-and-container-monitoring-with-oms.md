@@ -33,7 +33,7 @@ You can get the **Workspace ID** and **Primary Key** in **Settings > Connected S
 
     service docker restart
 
-**6.** You should now see the Container tile in your OMS homepage.
+**6.** You should now see the Containers tile in your OMS homepage.
 
 
 ![](<media/docker-overview-tile.png>) 
