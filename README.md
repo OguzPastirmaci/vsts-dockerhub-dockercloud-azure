@@ -2,6 +2,11 @@
 
 This example walks through the entire end to end workflow of a fully automated deployment of a clustered Dockerized Node.js app to Microsoft Azure using GitHub, Visual Studio Team Services, Docker Hub, and Tutum.
 
+It also walks through the process of implementing application monitoring, container monitoring, and container host monitoring.
+
+
+
+
 ![](<docs/media/workflow.PNG>)
 
 
