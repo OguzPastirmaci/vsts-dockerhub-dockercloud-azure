@@ -20,8 +20,8 @@ For our sample app, we will monitor the Azure VMs running as Docker hosts (calle
 
 You can get the **Workspace ID** and **Primary Key** in **Settings > Connected Sources** in the OMS portal.
 
+![](<media/id_and_key.png>)
 
-![](<docs/media/id_and_key.png>)
 
 **4.** The container solution pack for OMS is in private preview. You need fill out [this survey](https://www.surveymonkey.com/r/VKK976K) to join the private preview.
 
@@ -36,7 +36,7 @@ You can get the **Workspace ID** and **Primary Key** in **Settings > Connected S
 **6.** You should now see the Container tile in your OMS homepage.
 
 
-![](<docs/media/docker-overview-tile.png>) 
+![](<media/docker-overview-tile.png>) 
 
 
 You can learn more about how to access detailed information about your containers in OMS [here](https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/Docker-Instructions.md).
