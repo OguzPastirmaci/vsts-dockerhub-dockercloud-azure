@@ -7,10 +7,12 @@ var app = express();
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
+var os = require('os');
+var hostname = os.hostname();
+
 app.get('/', function (req, res) {
       res.render('index', {
 	});
-});
 
 if(!module.parent){
 app.listen(PORT);
