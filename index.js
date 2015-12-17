@@ -11,7 +11,7 @@ var os = require('os');
 var hostname = os.hostname();
 
 app.get('/', function (req, res) {
-      res.render('index', {
+      res.render('index', {hostname: hostname});
 	});
 
 if(!module.parent){
