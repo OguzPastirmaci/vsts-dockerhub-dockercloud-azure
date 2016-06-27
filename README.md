@@ -1,4 +1,4 @@
-### Fully automated CI/CD of a Dockerized Node.js app to Microsoft Azure with VSTS, Docker Hub and Tutum
+### Fully automated CI/CD of a Dockerized Node.js app to Microsoft Azure with VSTS, Docker Hub and Docker Cloud
 
 ![](<docs/media/workflow.PNG>)
 
