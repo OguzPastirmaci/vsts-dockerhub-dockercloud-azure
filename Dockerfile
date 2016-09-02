@@ -1,8 +1,8 @@
-FROM oguzpastirmaci/ubuntu-node
+FROM node:4
 
 COPY . /src  
 RUN cd /src; npm install
 
-EXPOSE 80
+EXPOSE 8000
 
 CMD ["nodejs", "/src/index.js"] 
