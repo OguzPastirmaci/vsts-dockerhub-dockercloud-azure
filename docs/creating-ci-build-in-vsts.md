@@ -1,3 +1,6 @@
+NOTE: VSTS UI is changed. The screenshots below are based on the previous UI. I will update the content soon with the new UI screenshots.
+
+
 ### Create a Continuous Integration Build in Visual Studio Team Services.
 
 
